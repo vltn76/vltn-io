@@ -1,0 +1,200 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    /* position: relative; */
+}
+::-moz-selection { background: #ff2d55; color: #F8F8FD;}
+::selection { background: #FF2D55; color: #F8F8FD;}
+
+.color-1{color: #4D2D80;}
+.color-2{color: #FF2D55;}
+.color-3{color: #ffffff;}
+.color-1.separator{border-color: #4D2D80; border-top: 1px solid; margin: 1em auto !important;}
+.color-2.separator{border-color: #FF2D55; border-top: 1px solid; margin: 1em auto !important;}
+.color-3.separator{border-color: #ffffff; border-top: 1px solid; margin: 1em auto !important;}
+
+.p-1{padding: 1em;}
+.p-2{padding: 2em;}
+.p-3{padding: 3em;}
+.p-4{padding: 4em;}
+.p-5{padding: 5em;}
+
+.pt-1{padding-top: 1em;}
+.pt-2{padding-top: 2em;}
+.pt-3{padding-top: 3em;}
+.pt-4{padding-top: 4em;}
+.pt-5{padding-top: 5em;}
+
+.pr-1{padding-right: 1em;}
+.pr-2{padding-right: 2em;}
+.pr-3{padding-right: 3em;}
+.pr-4{padding-right: 4em;}
+.pr-5{padding-right: 5em;}
+
+.pb-1{padding-bottom: 1em;}
+.pb-2{padding-bottom: 2em;}
+.pb-3{padding-bottom: 3em;}
+.pb-4{padding-bottom: 4em;}
+.pb-5{padding-bottom: 5em;}
+
+.pl-1{padding-left: 1em;}
+.pl-2{padding-left: 2em;}
+.pl-3{padding-left: 3em;}
+.pl-4{padding-left: 4em;}
+.pl-5{padding-left: 5em;}
+
+.al{text-align: left;}
+.ac{text-align: center;}
+.ar{text-align: right;}
+.aj{text-align: justify;}
+
+.fs-s{font-size: small;}
+.fs-m{font-size: medium;}
+.fs-l{font-size: large;}
+.fs-ll{font-size: larger;}
+.fs-xl{font-size: x-large;}
+.fs-xxl{font-size: xx-large;}
+
+.iconic{
+    width: 64px;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.fw-300{font-weight: 300;}
+.fw-400{font-weight: 400;}
+.fw-600{font-weight: 600;}
+.fw-700{font-weight: 700;}
+.fw-800{font-weight: 800;}
+
+.w-100{width: 100%;}
+.mh-40{min-height: 40em;}
+
+.separator{
+    width: 75%;
+    height: 1px;
+    border: none;
+    margin: 0.5em auto;
+}
+
+.logo-contain{
+    height: 4em;
+    object-fit: contain;
+}
+.contain{
+    width: 20em;
+    height: 20em;
+    object-fit: contain;
+}
+
+.bg-1{
+    background-color: #F8F8FD;
+}
+.bg-2{
+    background-color: #ffffff;
+}
+.bg-3{
+    background-color: #4D2D80;
+}
+.bajada-logo{
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 700;
+    line-height: 1.1em;
+}
+.texto-general{
+    font-weight: 400;
+}
+.titulo{
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.titulo2{
+    font-size: 1em;
+    text-transform: none;
+    font-weight: 600;
+}
+/* .lista{
+    padding-top: 0.4em;
+}
+.lista li{
+    font-size: 0.85em;
+    padding-left: 0.5em;
+    list-style-position: inside;
+} */
+.listado{
+    /* display: block;
+    width: 100%; */
+    font-weight: 600;
+    font-size: 11px;
+    font-style: italic;
+    text-transform: uppercase;
+    /* padding-left: 8px; */
+}
+.listado::before{
+    content: '•';
+    color: #FF2D55;
+}
+.btn-link{
+    display: block;
+    overflow: hidden;
+    padding: 1em 2em;
+    background-color: #4D2D80;
+    color: #F8F8FD;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+    -webkit-transform: scale3d(0.97,0.97,0.97);
+    transform: scale3d(0.97,0.97,0.97);
+    transition: all 0.3s;
+}
+.btn-link:hover{
+    background-color: #FF2D55;
+    -webkit-transform: scale3d(1,1,1);
+    transform: scale3d(1,1,1);
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.3);
+}
+.marcas{
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: fit-content;
+    list-style: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.marcas li{
+    display: flex;
+    align-content: center;
+    margin: 10px;
+}
+.marcas li img{
+    display: block;
+    margin: auto auto;
+}
+
+.rocket{
+    text-align: center;
+}
+.sticky{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 0px;
+    position: fixed;
+    /* position: -webkit-sticky;
+    position: sticky; */
+    /* top: 0; */
+    background-color: #FF2D55;
+}
+.footer a{
+    color: #ffffff;
+    text-decoration: none;
+}

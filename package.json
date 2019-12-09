@@ -1,0 +1,16 @@
+{
+  "name": "vltn-io-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "vltn.io.js",
+  "scripts": {
+    "dev": "nodemon src/vltn.io.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0"
+  }
+}
